@@ -19,13 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: apps/simple-app/package-lock.json
 
       - name: Install dependencies
         run: |
           cd apps/simple-app
-          npm ci
+          npm install
 
       - name: Build web app
         run: |
