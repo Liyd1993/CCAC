@@ -1,0 +1,8 @@
+{
+  "appId": "com.simpleapp.demo",
+  "appName": "SimpleApp",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
